@@ -32,7 +32,7 @@ const GanttChart = ({ view }) => {
         fetchTasks();
     }, []);
 
-    // depending of the size screen, it will disable or not the column width of the gantt chart
+    // depending on the screen size, it will disable or not the column width of the gantt chart
     useEffect(() => {
         const toggleColumnWidth = () => {
             if (window.innerWidth >= 1000)
